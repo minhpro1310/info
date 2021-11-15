@@ -3,3 +3,42 @@ body{
     text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+ul {
+  position: -webkit-sticky; /* áp dụng với Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+li a:hover {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  transform:scale(1.2,1.2);
+}
+.active {
+  background-color: #58257b;
+  color: white;
+  font-weight: bold;
+}
+
